@@ -8,16 +8,16 @@ function Hero() {
     md:grid-cols-2"
     >
       <div>
-        <h2 className="text-[40px] md:text-[60px] font-bold">
-          Quick and Easy Car Rentals In Your Area
+        <h2 className="text-[40px] md:text-[60px] font-bold ml-8">
+          Quick and Easy Premium Car Rentals In Your Area
         </h2>
-        <h2 className="text-[20px] text-gray-500 pr-20 mt-5">
+        <h2 className="text-[20px] text-gray-500 pr-20 mt-5 ml-8">
           Book Your Cars with Ease, and Pay only for the Quality Drive
         </h2>
         <button
           className="p-2 mt-5 bg-blue-500 text-white
             px-4 rounded-full 
-            hover:scale-105 transition-all"
+            hover:scale-105 transition-all ml-8"
         >
           Explore Cars
         </button>
