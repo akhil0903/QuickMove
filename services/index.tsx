@@ -2,7 +2,7 @@ import request, { gql } from "graphql-request";
 
 const URL =
   "https://api-us-west-2.hygraph.com/v2/clqx29yv6r96c01ui4m3w1tb4/master";
-export const getCarList = async () => {
+export const getCarsList = async () => {
   const query = gql`
     query CarLists {
       carLists {
@@ -11,6 +11,9 @@ export const getCarList = async () => {
         seats
         carbrand
         carType
+        image {
+          url
+        }
       }
     }
   `;
